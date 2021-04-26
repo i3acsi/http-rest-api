@@ -1,0 +1,8 @@
+.git
+.idea
+*.iml
+*.bat
+*.doc
+*.txt
+*.exe
+/apiserver
