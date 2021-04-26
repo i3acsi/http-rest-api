@@ -2,8 +2,6 @@ package apiserver
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/gorilla/mux"
-
 	"github.com/i3acsi/http-rest-api/internal/app/store"
 	"github.com/sirupsen/logrus"
 	"io"
@@ -14,8 +12,7 @@ import (
 type APIServer struct {
 	config *Config
 	logger *logrus.Logger
-	router mux.
-	//*mux.Router
+	router *mux.Router
 	store  *store.Store
 }
 

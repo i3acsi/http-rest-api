@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"github.com/BurntSushi/toml"
+	"github.com/i3acsi/http-rest-api/internal/app/apiserver"
 	"log"
-	"src/myFirstGoProject/chapter003/http-rest-api/internal/app/apiserver"
 )
 
 var (

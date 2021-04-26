@@ -1,6 +1,6 @@
 package apiserver
 
-import "src/myFirstGoProject/chapter003/http-rest-api/internal/app/store"
+import "github.com/i3acsi/http-rest-api/internal/app/store"
 
 // Config ...
 type Config struct {
